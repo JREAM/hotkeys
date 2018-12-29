@@ -1,0 +1,104 @@
+{
+  "plugins": [
+    "plugin:react/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "env": {},
+  "rules": {
+    "comma-dangle": [
+      2,
+      "only-multiline"
+    ],
+    "react/button-has-type": [
+      2,
+      {
+        "button": false,
+        "submit": false,
+        "reset": false
+      }
+    ],
+    "react/destructuring-assignment": 2,
+    "react/no-multi-comp": [
+      2,
+      {
+        "ignoreStateless": true
+      }
+    ],
+    "react/no-typos": 1,
+    "react/prefer-es6-class": [
+      2,
+      "always"
+    ],
+    "react/require-render-return": [
+      2
+    ],
+    "react/jsx-equals-spacing": [
+      2,
+      "always"
+    ],
+    "react/jsx-handler-names": [
+      2,
+      {
+        "eventHandlerPrefix": "on",
+        "eventHandlerPropPrefix": "handle"
+      }
+    ],
+    "react/jsx-indent": [
+      2,
+      2,
+      {
+        "checkAttributes": true
+      }
+    ],
+    "react/jsx-indent-props": [
+      2,
+      2
+    ],
+    "react/jsx-no-bind": [
+      2,
+      {
+        "ignoreDOMComponents": false,
+        "ignoreRefs": false,
+        "allowArrowFunctions": false,
+        "allowFunctions": false,
+        "allowBind": false
+      }
+    ],
+    "react/jsx-no-duplicate-props": [
+      2,
+      {
+        "ignoreCase": false
+      }
+    ],
+    "react/jsx-pascal-case": [
+      2,
+      {
+        "allowAllCaps": false
+      }
+    ],
+    "react/jsx-sort-props": [
+      1,
+      {
+        "callbacksLast": false,
+        "shorthandFirst": false,
+        "shorthandLast": true,
+        "ignoreCase": true,
+        "noSortAlphabetically": false
+      }
+    ],
+    "react/jsx-tag-spacing": {
+      "closingSlash": "never",
+      "beforeSelfClosing": "always",
+      "afterOpening": "never",
+      "beforeClosing": "allow"
+    },
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 0
+  }
+}
