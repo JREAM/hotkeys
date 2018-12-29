@@ -15,6 +15,7 @@ a preference. Though, If curious, this is what I use.
 
 ---
 
+- [Font and Settings](#font-and-settings)
 - [Hotkeys](#hotkeys)
 - [General Info](#general-info)
 - [Hotkey Tables](#hotkey-tables)
@@ -35,6 +36,19 @@ This primarily applies to my favorite editor of all time: [VSCode](http://code.v
 My second most used editor is [VIM](https://www.vim.org/) in the terminal. However, none of the keybindings apply to VIM, it's a different breed but a must-use editor.
 
 Lastly, 99.99%-100% of all code I write is in [Ubuntu Desktop (Linux)](https://www.ubuntu.com/download/desktop).
+
+# Font and Settings
+
+Lately I've enjoyed **Envy Code R** (free) from this site:
+  
+  - https://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released
+  - Direct Download: https://download.damieng.com/fonts/original/EnvyCodeR-PR7.zip
+
+Included are:
+
+  - `vscode-settings.json` (To follow along)
+  - `vscode-keys.json` (If you want the same hotkeys I use below)
+  - `.eslintrc` (For React)
 
 # Hotkey Tables
 
